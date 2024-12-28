@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!-- Header Section -->
+   <header class="bg-dark text-white text-center py-5">
+    <h1>Helping Business And Companies Innovate</h1>
+    <p>Transform And Lead</p>
+    <button class="btn btn-danger">Learn More</button>
+    <button class="btn btn-outline-light">Contact Us</button>
+
+</header>
+
+<section class="services-overview">
+    <div class="container">
+        <div class="services-grid">
+            <div class="service-box red">
+                <h3>Content Concept & Strategy</h3>
+                <p>Aenean pharetra magna ac placerat magna vestibulum lectus mauris ultrices eros.</p>
+            </div>
+            <div class="service-box">
+                <h3>Design & Concepts</h3>
+                <p>In egestas erat imperdiet sed euismod. A diam maecenas sed enim ut.</p>
+            </div>
+            <div class="service-box">
+                <h3>SEO & Marketing Solutions</h3>
+                <p>In egestas erat imperdiet sed euismod. A diam maecenas sed enim ut.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Services Section -->
+    <section id="services" class="container py-5">
+        <h2>Best Services for <span class="highlight">Visual Perfection</span></h2>
+        <p>Cras sed felis eget velit aliquet sagittis id consectetur. Lectus sit amet est placerat.</p>
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="service-card p-4 bg-light rounded">
+                    <h4>Web Development</h4>
+                    <p>Building modern, responsive websites to enhance your business presence.</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="service-card p-4 bg-light rounded">
+                    <h4>Mobile App Development</h4>
+                    <p>Creating intuitive and user-friendly mobile applications for all platforms.</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="service-card p-4 bg-light rounded">
+                    <h4>Digital Marketing</h4>
+                    <p>Helping you reach your audience with targeted marketing strategies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Portfolio</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/img1.jpg" class="img-fluid rounded mb-3" alt="Project 1">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/img2.jpg" class="img-fluid rounded mb-3" alt="Project 2">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/img3.jpg" class="img-fluid rounded mb-3" alt="Project 3">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/img4.jpg" class="img-fluid rounded mb-3" alt="Project 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+<section id="about-us" class="container py-5">
+    <div class="row align-items-center">
+        <!-- Text Content -->
+        <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>
+                We are a team of dedicated professionals committed to crafting exceptional digital experiences. Our mission is to deliver innovative solutions that help businesses thrive in today's fast-paced digital world. 
+            </p>
+            <p>
+                With years of experience in web development, mobile applications, and digital marketing, we bring expertise and passion to every project. We pride ourselves on our ability to understand our clients' needs and turn their ideas into reality.
+            </p>
+            <p>
+                Join us on our journey to create meaningful and impactful solutions that make a difference.
+            </p>
+            <a href="#contact" class="btn primary">Contact Us</a>
+        </div>
+
+        <!-- Image Content -->
+        <div class="col-md-6 text-center">
+            <img src="about-us-image.jpg" alt="About Us" class="img-fluid rounded">
+        </div>
+    </div>
+</section>
+
+
+    <!-- Testimonials Section -->
+<section id="testimonials" class="container py-5">
+    <h2 class="text-center">What Our Clients Say</h2>
+    <p class="text-center mb-4">Our clients' success stories inspire us to keep delivering exceptional results.</p>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <div class="testimonial-card p-4 bg-light rounded shadow-sm">
+                <img src="images/img1.jpg" alt="Client 1" class="testimonial-img rounded-circle mb-3">
+                <h4>John Doe</h4>
+                <p class="text-muted">CEO, TechCorp</p>
+                <p>"The team delivered an exceptional website that boosted our online presence. Their professionalism and attention to detail were outstanding."</p>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="testimonial-card p-4 bg-light rounded shadow-sm">
+                <img src="images/img2.jpg" alt="Client 2" class="testimonial-img rounded-circle mb-3">
+                <h4>Jane Smith</h4>
+                <p class="text-muted">Founder, StartupHub</p>
+                <p>"Their mobile app development services were top-notch. The app's design and functionality exceeded our expectations."</p>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="testimonial-card p-4 bg-light rounded shadow-sm">
+                <img src="images/img3.jpg" alt="Client 3" class="testimonial-img rounded-circle mb-3">
+                <h4>Mark Taylor</h4>
+                <p class="text-muted">Director, Digital Solutions</p>
+                <p>"Working with this team was a pleasure. They delivered exactly what we needed and went above and beyond to ensure satisfaction."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="container py-5">
+    <h2 class="text-center">Latest from Our Blog</h2>
+    <p class="text-center mb-4">Stay updated with our latest news, tips, and industry insights.</p>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="blog-card p-4 bg-light rounded shadow-sm">
+                <img src="images/img4.jpg" alt="Blog 1" class="img-fluid rounded mb-3">
+                <h4>5 Tips for Effective Web Design</h4>
+                <p class="text-muted">By Admin | Dec 25, 2024</p>
+                <p>Discover the key principles of web design that can make your website stand out and attract more users.</p>
+                <a href="#" class="btn btn-link">Read More</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="blog-card p-4 bg-light rounded shadow-sm">
+                <img src="images/img2.jpg" alt="Blog 2" class="img-fluid rounded mb-3">
+                <h4>Why Mobile Apps Are Essential</h4>
+                <p class="text-muted">By Admin | Dec 20, 2024</p>
+                <p>Learn why having a mobile app can give your business a competitive edge in today's digital age.</p>
+                <a href="#" class="btn btn-link">Read More</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="blog-card p-4 bg-light rounded shadow-sm">
+                <img src="images/img4.jpg" alt="Blog 3" class="img-fluid rounded mb-3">
+                <h4>The Future of Digital Marketing</h4>
+                <p class="text-muted">By Admin | Dec 15, 2024</p>
+                <p>Explore the emerging trends in digital marketing and how they can impact your business strategy.</p>
+                <a href="#" class="btn btn-link">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
